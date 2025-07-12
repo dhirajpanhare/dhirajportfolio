@@ -1,11 +1,10 @@
-
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Certificates from "./Pages/Certificates";
 import Register from "./Pages/Register";
 import Notes from "./Pages/Notes";
+import Home from "./Pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
           <Route path="/Certificates" element={<Certificates />}> </Route>
           <Route path="/Notes" element={<Notes />}> </Route>
           <Route path="/Register" element={<Register />}> </Route>
-
         </Routes>
       </BrowserRouter>
     </>
